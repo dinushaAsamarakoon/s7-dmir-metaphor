@@ -1,9 +1,12 @@
 from search import multi_search
 from ui import get_window
 
+
 def take_inputs():
     mode = int(input('Enter search mode: '))
     search_term = ""
+    if mode == -1:
+        exit()
     if mode != 0:
         search_term = input('Enter search query: ')
     since_when = ""
