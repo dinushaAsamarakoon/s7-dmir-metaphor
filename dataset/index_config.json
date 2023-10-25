@@ -1,0 +1,63 @@
+{
+  "settings": {
+    "index": {
+      "analysis": {
+        "analyzer": {
+          "plain": {
+            "filter": [],
+            "tokenizer": "standard"
+          }
+        }
+      }
+    }
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "poem_name": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "type": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "author": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "year": {
+        "type": "date",
+        "format": "yyyy"
+      },
+      "lime": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "stemmed_lime": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "metaphor_available": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "count": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "source": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "target": {
+        "type": "text",
+        "analyzer": "plain"
+      },
+      "meaning": {
+        "type": "text",
+        "analyzer": "plain"
+      }
+    }
+  }
+}

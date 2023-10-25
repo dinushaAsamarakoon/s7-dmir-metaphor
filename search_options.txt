@@ -1,0 +1,13 @@
+The following search modes are available.
+0 - Get all metaphors (with year)
+1 - Search metaphors by poem name (with year)
+2 - Search metaphors by metaphor type {standard, Extended}
+3 - Search metaphors by author (with year)
+4 - Search metaphors
+5 - Search metaphors with stemming
+6 - Search metaphors by source
+7 - Search metaphors by target
+8 - Search metaphors by meaning
+
+
+Enter -1 to exit.
