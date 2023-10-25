@@ -50,7 +50,7 @@ def search_by_poem_name_and_year(search_term, year):
 
 def search_by_metaphor_type(search_term):
     query = {
-        'match': {
+        'term': {
             'type': search_term
         }
     }

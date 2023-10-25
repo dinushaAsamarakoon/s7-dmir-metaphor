@@ -6,6 +6,12 @@
           "plain": {
             "filter": [],
             "tokenizer": "standard"
+          },
+          "case_insensitive": {
+            "filter": [
+              "lowercase"
+            ],
+            "tokenizer": "standard"
           }
         }
       }
@@ -19,8 +25,7 @@
         "analyzer": "plain"
       },
       "type": {
-        "type": "text",
-        "analyzer": "plain"
+        "type": "keyword"
       },
       "author": {
         "type": "text",
